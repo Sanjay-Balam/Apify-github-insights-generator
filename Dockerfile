@@ -1,5 +1,5 @@
-# Use official Apify SDK image
-FROM apify/actor-node:18
+# Use official Apify SDK image with Node 20
+FROM apify/actor-node:20
 
 # Copy package files
 COPY package*.json ./

@@ -1,0 +1,10 @@
+{
+  "repositoryUrls": [
+    "https://github.com/facebook/react"
+  ],
+  "includeCodeQuality": true,
+  "includeContributorInsights": true,
+  "includeActivityTrends": true,
+  "analyzeDays": 30
+}
+

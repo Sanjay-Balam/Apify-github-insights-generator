@@ -1,0 +1,16 @@
+{
+  "actorSpecification": 1,
+  "name": "github-insights-generator",
+  "title": "GitHub Repository Insights Generator",
+  "description": "Analyzes GitHub repositories and generates comprehensive reports including tech stack detection, code quality metrics, activity trends, contributor insights, and repository health scores. Perfect for VCs, recruiters, and developer tools.",
+  "version": "1.0",
+  "meta": {
+    "templateId": "ts-start"
+  },
+  "input": "./input_schema.json",
+  "dockerfile": "./Dockerfile",
+  "readme": "./README.md",
+  "categories": ["DEVELOPER_TOOLS"],
+  "storePrimaryCategory": "DEVELOPER_TOOLS"
+}
+

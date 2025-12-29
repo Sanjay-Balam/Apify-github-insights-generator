@@ -1,0 +1,55 @@
+{
+  "title": "GitHub Repository Insights",
+  "type": "object",
+  "properties": {
+    "url": {
+      "type": "string",
+      "description": "Repository URL"
+    },
+    "owner": {
+      "type": "string",
+      "description": "Repository owner username"
+    },
+    "repo": {
+      "type": "string",
+      "description": "Repository name"
+    },
+    "analyzedAt": {
+      "type": "string",
+      "description": "ISO timestamp of analysis"
+    },
+    "healthScore": {
+      "type": "number",
+      "description": "Overall health score (0-100)"
+    },
+    "healthBreakdown": {
+      "type": "object",
+      "description": "Detailed breakdown of health score"
+    },
+    "basicInfo": {
+      "type": "object",
+      "description": "Basic repository information"
+    },
+    "techStack": {
+      "type": "object",
+      "description": "Technology stack analysis"
+    },
+    "codeQuality": {
+      "type": "object",
+      "description": "Code quality metrics"
+    },
+    "contributors": {
+      "type": "object",
+      "description": "Contributor insights"
+    },
+    "activityTrends": {
+      "type": "object",
+      "description": "Activity trend analysis"
+    },
+    "success": {
+      "type": "boolean",
+      "description": "Whether analysis was successful"
+    }
+  }
+}
+

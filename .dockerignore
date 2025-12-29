@@ -1,0 +1,11 @@
+node_modules
+.git
+.env
+.DS_Store
+*.log
+apify_storage
+storage
+dist
+README.md
+.gitignore
+

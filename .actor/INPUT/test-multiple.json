@@ -1,0 +1,11 @@
+{
+  "repositoryUrls": [
+    "https://github.com/apify/crawlee",
+    "https://github.com/facebook/react"
+  ],
+  "includeCodeQuality": true,
+  "includeContributorInsights": false,
+  "includeActivityTrends": true,
+  "analyzeDays": 90
+}
+

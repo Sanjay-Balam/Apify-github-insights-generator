@@ -1,0 +1,37 @@
+{
+  "name": "github-insights-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Analyzes GitHub repositories and generates comprehensive insights reports including tech stack, code quality, activity trends, and contributor analytics",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "npm run build && node dist/main.js",
+    "build": "tsc",
+    "dev": "ts-node src/main.ts",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "author": "Sanjay",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "apify": "^3.1.10",
+    "@octokit/rest": "^20.0.2",
+    "crawlee": "^3.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.2"
+  },
+  "keywords": [
+    "github",
+    "repository",
+    "analytics",
+    "insights",
+    "code-quality",
+    "tech-stack",
+    "developer-tools",
+    "apify",
+    "actor"
+  ]
+}
+

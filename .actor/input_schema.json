@@ -1,0 +1,49 @@
+{
+  "title": "GitHub Repository Insights Generator Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "repositoryUrls": {
+      "title": "Repository URLs",
+      "type": "array",
+      "description": "List of GitHub repository URLs to analyze (e.g., https://github.com/owner/repo)",
+      "editor": "stringList",
+      "example": ["https://github.com/apify/crawlee", "https://github.com/microsoft/vscode"],
+      "prefill": ["https://github.com/apify/crawlee"]
+    },
+    "githubToken": {
+      "title": "GitHub Personal Access Token (Optional)",
+      "type": "string",
+      "description": "Optional GitHub token for higher API rate limits (5000 req/hr vs 60 req/hr). Create at: https://github.com/settings/tokens",
+      "editor": "textfield",
+      "isSecret": true
+    },
+    "includeCodeQuality": {
+      "title": "Include Code Quality Analysis",
+      "type": "boolean",
+      "description": "Analyze code quality metrics (file structure, documentation, test coverage indicators)",
+      "default": true
+    },
+    "includeContributorInsights": {
+      "title": "Include Contributor Insights",
+      "type": "boolean",
+      "description": "Analyze contributor activity, top contributors, and commit patterns",
+      "default": true
+    },
+    "includeActivityTrends": {
+      "title": "Include Activity Trends",
+      "type": "boolean",
+      "description": "Analyze commit frequency, issue/PR trends, and release patterns",
+      "default": true
+    },
+    "analyzeDays": {
+      "title": "Analysis Period (Days)",
+      "type": "integer",
+      "description": "Number of days to look back for activity trends",
+      "default": 90,
+      "minimum": 7,
+      "maximum": 365
+    }
+  },
+  "required": ["repositoryUrls"]
+}

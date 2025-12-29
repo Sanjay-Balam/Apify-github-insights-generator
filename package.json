@@ -6,7 +6,7 @@
   "main": "dist/main.js",
   "scripts": {
     "start": "npm run build && node dist/main.js",
-    "build": "tsc",
+    "build": "npx tsc",
     "dev": "ts-node src/main.ts",
     "test": "echo \"No tests yet\" && exit 0"
   },

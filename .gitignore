@@ -6,3 +6,6 @@ dist/
 apify_storage/
 storage/
 
+
+# Test files with potential tokens
+.actor/INPUT/test-*.json
